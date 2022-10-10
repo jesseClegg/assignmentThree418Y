@@ -10,20 +10,25 @@ import {Container} from "react-bootstrap";
 function App() {
   return (
       <>
-          <Container style={ {backgroundColor:"f1f1f1"} }>
+          <Container style={ {backgroundColor:"f1f1f1", marginBottom: 30, marginTop: 30} }>
           <Row>
               <Col>
                   <img width={20} height={20} src="https://getbootstrap.com/docs/5.2/assets/img/favicons/favicon-32x32.png" />
-              </Col>
-              <Col>
                   Media Library
               </Col>
-          </Row>
-          </Container>
-              <Container>
-            <Row>
+              <Col>
 
-                <Col>
+              </Col>
+          </Row>
+
+
+
+
+
+
+
+            <Row>
+                <Col class="row no-gutters">
                     <img
                         width={300}
                         height={300}
@@ -31,7 +36,7 @@ function App() {
                         alt="new"
                     />
                 </Col>
-                <Col>
+                <Col style={{disply:'flex', justifyContent:'left'}}>
                     <h2>
                         Jesse LastName
                     </h2>
@@ -41,6 +46,10 @@ function App() {
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. E
                         xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                     </p>
+                </Col>
+
+                <Col>
+
                 </Col>
 
             </Row>
