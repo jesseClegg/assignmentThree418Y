@@ -13,23 +13,25 @@ function App() {
           <Container style={ {backgroundColor:"f1f1f1"} }>
           <Row>
               <Col>
-                  <img width={20} height={20} src="https://getbootstrap.com/docs/5.2/assets/img/favicons/favicon-32x32.png" />
-              </Col>
-              <Col>
-                  Media Library
+                  <img width={20}
+                       height={20}
+                       src="https://getbootstrap.com/docs/5.2/assets/img/favicons/favicon-32x32.png"
+                       alt="boostrap icon" />
+                       style={{ margin: 40 }}
+                       Media Library
               </Col>
           </Row>
           </Container>
               <Container>
             <Row>
-
                 <Col>
                     <img
                         width={300}
                         height={300}
                         src="https://s3forninad.s3.amazonaws.com/jeffreyDahmer.jpg"
                         alt="new"
-                    />
+                        style={{ margin: 40 }} />
+
                 </Col>
                 <Col>
                     <h2>
