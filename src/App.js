@@ -22,15 +22,8 @@ function App() {
             </Container>
 
 
-
-
-
           <Container>
-
             <Row>
-
-
-
                 <Col xs lg={4}
                     className='g-0' >
                     <img className='g-0'
@@ -41,9 +34,7 @@ function App() {
                     />
                 </Col>
 
-
-
-                <Col xs lg={6}
+                <Col xs lg={7}
                     style={{disply:'flex', justifyContent:'left'}}
                      className='g-0'
                      size='6'>
@@ -61,14 +52,6 @@ function App() {
                        </p>
                    </Row>
                 </Col>
-
-
-
-
-
-
-
-
             </Row>
           </Container>
       </>
