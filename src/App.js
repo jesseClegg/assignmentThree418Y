@@ -10,10 +10,11 @@ import {Container} from "react-bootstrap";
 function App() {
   return (
       <>
-          <Container style={ {backgroundColor:"f1f1f1", marginBottom: 30, marginTop: 30} }>
+          <Container style={ {backgroundColor:"#e0e0d1", marginBottom: 30, marginTop: 30} }>
           <Row>
-              <Col>
-                  <img width={20} height={20} src="https://getbootstrap.com/docs/5.2/assets/img/favicons/favicon-32x32.png" />
+              <Col style={ {marginBottom: 15, marginTop: 15} }>
+                  <img style={ {marginLeft: 15, marginRight: 5} }
+                      width={20} height={20} src="https://getbootstrap.com/docs/5.2/assets/img/favicons/favicon-32x32.png" />
                   Media Library
               </Col>
               <Col>
@@ -22,10 +23,12 @@ function App() {
           </Row>
 
 
+            </Container>
 
 
 
 
+          <Container>
 
             <Row>
                 <Col class="row no-gutters">
