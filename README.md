@@ -14,9 +14,10 @@
 * The public IPv4 address is  3.86.88.82:8080
 
 	-> note: be sure to access on port 8080, this has been appended to the URL already. 
+	
 	-> note: I have also deliberately not included any personal photos or information just for the sake of privacy.
 
-	
+
 ***
 * Pm2 is implemented to maintain serving of the application even after the terminal is closed.
 ***
